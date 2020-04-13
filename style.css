@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+
+
+
+
+#bg {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 800px;
+    height: 600px;
+
+    /* width: 100vw;
+    height: 100vh; */
+    margin: auto;
+    background-image: url(../Enemy-rain/images/bg.png);
+}
+
+
+
+
+
+
+
+#hero {
+    width: 35px;
+    height: 57px;
+    background-image: url(../Enemy-rain/images/hero.png);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.front-face {
+    background-position: 0px 0px;
+}
+
+.left-face {
+    background-position: -70px 0px;
+}
+
+.right-face {
+    background-position: 36px 0px;
+}
+
+
+
+
+
+.enemy {
+    width: 45px;
+    height: 54px;
+    background-image: url(../Enemy-rain/images/enemy.png);
+    position: absolute;
+}
+
+.enemy-dead {
+    width: 45px;
+    height: 54px;
+    background-image: url(../Enemy-rain/images/enemy.png);
+    background-position: 45px 0px;
+    position: absolute;
+    bottom: 0;
+
+}
